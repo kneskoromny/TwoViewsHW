@@ -18,27 +18,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iW0-FQ-AP7">
-                                <rect key="frame" x="16" y="54" width="382" height="386"/>
+                                <rect key="frame" x="17" y="54" width="380" height="380"/>
                                 <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETM-Ka-4ww">
-                                <rect key="frame" x="16" y="472" width="382" height="376"/>
+                                <rect key="frame" x="17" y="472" width="380" height="380"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
-                            <constraint firstItem="iW0-FQ-AP7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="0rm-oN-45p"/>
-                            <constraint firstItem="ETM-Ka-4ww" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P0C-ip-vdK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iW0-FQ-AP7" secondAttribute="trailing" constant="16" id="Qog-0M-Ba1"/>
-                            <constraint firstItem="iW0-FQ-AP7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cR3-hs-gBz"/>
-                            <constraint firstItem="iW0-FQ-AP7" firstAttribute="height" secondItem="ETM-Ka-4ww" secondAttribute="height" multiplier="1.0266" id="dSz-Y5-lAC"/>
-                            <constraint firstItem="ETM-Ka-4ww" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hjH-LN-PiM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ETM-Ka-4ww" secondAttribute="bottom" constant="14" id="jc2-vN-RPF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ETM-Ka-4ww" secondAttribute="trailing" constant="16" id="mBL-nO-TFA"/>
-                            <constraint firstItem="iW0-FQ-AP7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="okj-tX-ioI"/>
-                            <constraint firstItem="ETM-Ka-4ww" firstAttribute="top" secondItem="iW0-FQ-AP7" secondAttribute="bottom" constant="32" id="p2z-xc-ZNq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ETM-Ka-4ww" secondAttribute="trailing" constant="17" id="XNv-uZ-kVl"/>
+                            <constraint firstItem="ETM-Ka-4ww" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="bFd-9x-6fs"/>
+                            <constraint firstItem="iW0-FQ-AP7" firstAttribute="height" secondItem="ETM-Ka-4ww" secondAttribute="height" id="jT0-nn-swN"/>
+                            <constraint firstItem="iW0-FQ-AP7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="meL-iq-bMn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iW0-FQ-AP7" secondAttribute="trailing" constant="17" id="oQl-BF-h9r"/>
+                            <constraint firstItem="iW0-FQ-AP7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="uXT-fO-Geu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ETM-Ka-4ww" secondAttribute="bottom" constant="10" id="vtY-2B-pwy"/>
+                            <constraint firstItem="ETM-Ka-4ww" firstAttribute="top" secondItem="iW0-FQ-AP7" secondAttribute="bottom" constant="38" id="xEx-vV-Nb6"/>
                         </constraints>
                     </view>
                 </viewController>
